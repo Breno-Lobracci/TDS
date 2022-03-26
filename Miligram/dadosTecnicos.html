@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/milligram-1.4.1/dist/milligram.css">
+    <title>Deal</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+          <h2>Experiência</h2>
+          <label for="nameField">Possui experiência?</label>
+          <input type="checkbox" id="confirmField">
+          <label class="label-inline" for="confirmField">Sim</label>
+          <input type="checkbox" id="confirmField">
+          <label class="label-inline" for="confirmField">Não</label>
+          <label for="nameField">Caso possua experiência comente mais sobre:</label>
+          <div>
+            <label for="nameField">Empresa:</label>
+            <input type="text" placeholder="Em qual empresa atuou?" id="empresaField">
+            <label for="ageRangeField">Tempo de atuação</label>
+            <select id="ageRangeField">
+                <option value="--">--</option>
+                <option value="0-6 meses">0-6 meses</option>
+                <option value="até 1ano">Até 1 ano</option>
+                <option value="1-2anos">1-2anos</option>
+                <option value="2-3anos">2-3anos</option>
+                <option value="4-5anos">4-5anos</option>
+                <option value="6-7anos">6-7anos</option>
+                <option value="8-9anos">8-9anos</option>
+                <option value="10+">10+</option>
+            </select>
+            <label for="commentField">Qual era a sua função?</label>
+            <textarea placeholder="Conte-nos um pouco..." id="commentField"></textarea>
+        </div>
+        <label for="nameField">Conte-nos as localidades que deseja atender</label>
+        <div>
+            <input type="text" placeholder="Locais de atendimento..." id="commentField">
+        </div>
+        <label class="label-inline" for="FotoCertificado">Certificado</label>
+        <br>
+        <input type="file" id="FotoCertificado" value="FotoCertificado" required>
+        <br>
+        <label class="label-inline" for="FotoCertificado">Trabalhos</label>
+        <br>
+        <input type="file" id="FotoTrabalho" value="FotoTrabalho" required>
+        <br>
+        <label for="nameField">Qual a forma de pagamento?</label>
+        <input type="checkbox" id="confirmField">
+        <img class="imagem" src="img/pix2.png" width="18px" alt="pix">
+        <input type="checkbox" id="confirmField">
+        <img class="imagem" src="img/Cartao3.jpg" width="32px" alt="Credit Card">
+        <input type="checkbox" id="confirmField">
+        <img class="imagem" src="img/Boleto2.png" width="30px" alt="Boleto">
+         <br> 
+         <input class="button-primary" type="submit" value="Send">
+
+          
+        </fieldset>
+      </form>
+</body>
+</html>
